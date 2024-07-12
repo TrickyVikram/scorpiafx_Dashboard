@@ -1,0 +1,48 @@
+{
+  "menu": [
+    {
+      "url": "/Dashboards",
+      "name": "Dashboards",
+      "slug": "dashboard",
+      "icon": "menu-icon tf-icons mdi mdi-view-dashboard",
+      "badge": [
+        "danger",
+        ""
+      ],
+    
+      "submenu": [
+        {
+          "url": "/home",
+          "name": "Home",
+          "slug": "home",
+          "icon": "menu-icon tf-icons mdi mdi-home-outline"
+        },
+        {
+          "url": "/challenge-status",
+          "name": "Challenge Status",
+          "slug": "challenge-status",
+          "icon": "menu-icon tf-icons mdi mdi-chart-line"
+        },
+        {
+          "url": "/web-trader",
+          "name": "Web Trader",
+          "slug": "web-trader",
+          "icon": "menu-icon tf-icons mdi mdi-web"
+        },
+        {
+          "url": "/details",
+          "name": "Details",
+          "slug": "details",
+          "icon": "menu-icon tf-icons mdi mdi-information"
+        },
+        {
+          "url": "/payouts",
+          "name": "Payouts",
+          "slug": "payouts",
+          "icon": "menu-icon tf-icons mdi mdi-currency-usd"
+        }
+      ]
+    }
+  ]
+
+}
