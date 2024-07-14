@@ -70,7 +70,7 @@
                         <li class="nav-link">
                             <ul>
                                 @if (request()->path() !== 'login')
-                                    {{-- <a class=" btn11" href="{{ route('login') }}">re</a> --}}
+                                <a class=" nav-link" href="{{ route('login') }}"> <span class="btn_span btn12"> DASHBOARD </span>
                                 @else
                                     <a class="btn" href="{{ route('login') }}"> <span class="btn_span"> DASHBOARD </span>
                                     </a>
