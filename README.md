@@ -1,7 +1,9 @@
 
 # scorpiafx_Dashboard
 
-![Example Image](https://github.com/TrickyVikram/scorpiafx_Dashboard/blob/main/img/Screenshot%202024-07-14%20at%206.16.37%E2%80%AFPM.png)
+
+
+<img src="https://github.com/TrickyVikram/scorpiafx_Dashboard/blob/main/img/Screenshot%202024-07-14%20at%206.16.37%E2%80%AFPM.png" alt="img" height="300">
 
 
 ## Installation ⚒️
