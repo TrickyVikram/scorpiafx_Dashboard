@@ -33,17 +33,16 @@ Route::post('/make-payment', [PaymentController::class, 'makePayment'])->name('m
 Auth::routes();
 
 Route::middleware('ip.security')->group(function () {
-  // routes copy
-});
-  
+
+  // IP-based security middleware
+
 Route::get('/home', [Analytics::class, 'index'])->name('dashboard-analytics')->middleware('auth');
 Route::get('/details', [DetailsController::class, 'index'])->name('dashboard-details')->middleware('auth');
 Route::get('/challenge-status', [challenge_status::class, 'index'])->middleware('auth');
 Route::get('/web-trader', [web_traderController::class, 'index'])->middleware('auth');
 Route::get('/payouts', [payoutsController::class, 'index'])->middleware('auth');
 
-Route::resource('/profile', ProfileController::class)->middleware('auth');
+Route::resource('/profiles', ProfileController::class)->middleware('auth');
 
-    
-Route::get('profile/create', [ProfileController::class, 'create'])->name('profile.create');
-Route::post('profile', [ProfileController::class, 'store'])->name('profile.store');
+
+});
