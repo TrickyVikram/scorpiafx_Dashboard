@@ -31,11 +31,14 @@
 
         <div class="row">
             <div class="col-md-3">
-                <div class="container py-2">
+              <div>
+                OnVTech
+              </div>
+                {{-- <div class="container py-2">
                     <img src="https://www.scorpiafx.com/wp-content/uploads/2024/03/C8F558FA-F661-48F4-A3AC-88BD05BDE51D.png"
                         alt="logo">
 
-                </div>
+                </div> --}}
 
             </div>
             <div class="col-md-3">

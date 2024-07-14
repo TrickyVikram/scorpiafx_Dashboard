@@ -46,10 +46,10 @@
     <div class="container navbar">
         <div>
             <a class="nav-link" href="{{ url('https://www.scorpiafx.com/') }}">
-                <img class="img-fluid" style="width: 83px; height: 83px;"
-                    src="https://www.scorpiafx.com/wp-content/uploads/2024/03/C8F558FA-F661-48F4-A3AC-88BD05BDE51D.png"
-                    alt="logo">
-                {{-- {{ config('app.name', 'scorpiafx') }} --}}
+                {{-- <img class="img-fluid" style="width: 83px; height: 83px;"
+                    src="https://github.com/TrickyVikram/scorpiafx_Dashboard/blob/main/public/favicon_io/apple-touch-icon.png"
+                    alt=""> --}}
+                {{-- {{ config('app.name', 'scorpiafx') --}}
             </a>
         </div>
         <div style="padding-left: 9%; display:flex;">

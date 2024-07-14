@@ -10,10 +10,14 @@ use App\Http\Controllers\dashboard\payoutsController;
 
 use App\Http\Controllers\dashboard\ProfileController;
 
+Route::get('/home', function () {
+  return  redirect('/dashboard');
+});
 
 Route::get('/', function () {
-  return  redirect('/login');
+  return view('body');
 });
+
 
 // Route::get('/logout', function () {
 
@@ -36,7 +40,7 @@ Route::middleware('ip.security')->group(function () {
 
   // IP-based security middleware
 
-Route::get('/home', [Analytics::class, 'index'])->name('dashboard-analytics')->middleware('auth');
+Route::get('/dashboard', [Analytics::class, 'index'])->name('dashboard-analytics')->middleware('auth');
 Route::get('/details', [DetailsController::class, 'index'])->name('dashboard-details')->middleware('auth');
 Route::get('/challenge-status', [challenge_status::class, 'index'])->middleware('auth');
 Route::get('/web-trader', [web_traderController::class, 'index'])->middleware('auth');
